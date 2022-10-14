@@ -5,7 +5,7 @@ import { About } from "./components/about";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 import { Contact } from "./components/contact";
-import { SignIn } from "./pages/SignIn";
+import SignIn  from "./pages/SignIn";
 import JsonData from "./data/data.json";
 import ReactDOM from "react-dom";
 import Navbar from './components/Navbar';
@@ -66,15 +66,8 @@ const App = () => {
       
       <Contact data={landingPageData.Contact} />
       </div>
-      
-     <div>
-     <Router>
-    <Navbar />
-    <Routes>
-        <Route path='/signin' element={<SignIn/>} />
-    </Routes>
-    </Router>
-    </div> 
+      <SignIn />
+     
     </div>
   );
 };

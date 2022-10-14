@@ -25,7 +25,8 @@ app.get('/', (req, res) => {
 
 
 app.get('/blogposts', db.getBlogPosts)
-
+app.get('/login', db.getLoginInfo)
+app.get('/login/:username', db.getSingleUser)
 
 
 
