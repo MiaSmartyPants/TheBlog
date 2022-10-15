@@ -5,12 +5,10 @@ import { About } from "./components/about";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
 import { Contact } from "./components/contact";
-import SignIn  from "./pages/SignIn";
+import {SignIn}  from "./components/SignIn";
 import JsonData from "./data/data.json";
 import ReactDOM from "react-dom";
-import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route}
-    from 'react-router-dom';
+
 // import SmoothScroll from "smooth-scroll";
 import "./App.css";
 
@@ -65,8 +63,9 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       
       <Contact data={landingPageData.Contact} />
+      <SignIn /> 
       </div>
-      <SignIn />
+     
      
     </div>
   );

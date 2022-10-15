@@ -66,7 +66,7 @@
 }
 
 .card {
-  background-color: #ff9909;
+  background-color: #e8a1c8;
   width: 24em;
   border-radius: 0.6em;
   margin: 1em;
@@ -87,7 +87,7 @@
 }
 
 .card h2 {
-  color: rgb(243, 237, 237);
+  color: rgb(0, 0, 0);
   margin-top: -0.2em;
   line-height: 1.4;
   font-size: 1.3em;
@@ -97,11 +97,11 @@
 }
 
 .card p {
-  color: rgb(239, 233, 233);
+  color: rgb(0, 0, 0);
 }
 
 .card h5 {
-  color: rgb(254, 249, 249);
+  color: rgb(0, 0, 0);
   font-weight: 700;
   font-size: 0.7em;
   letter-spacing: 0.04em;
@@ -111,7 +111,7 @@
 
 .card-body {
   padding: 1.2em;
-  background-color: #0bb02f;
+  background-color: #e1ede3;
 }
 
 
@@ -120,8 +120,8 @@
 
   background: #00000050;
   width: 100%;
-  height: 400px;
-  top: 0;
+  height: 100%;
+  top: 15vh;
   left: 0;
 }
  
@@ -133,9 +133,9 @@
   height: auto;
   max-height: 70vh;
   margin-top: calc(100vh - 85vh - 20px);
-  background: rgb(20, 1, 133);
+  text-align: center;
   padding: 20px;
-  border: 1px solid #999;
+  
   overflow: auto;
 }
  
@@ -219,4 +219,7 @@ input[type="submit"]:hover {
   flex-direction: column;
   gap: 8px;
   margin: 10px;
+}
+.button {
+  border: 0;
 }

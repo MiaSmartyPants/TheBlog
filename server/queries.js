@@ -27,8 +27,8 @@ const getBlogPosts = (request, response) => {
   }
 
   const getSingleUser = (request, response) => {
-    const username = parseInt(request.params.username)
-  
+    const username = (request.params.username)
+  console.log(username);
     pool.query('SELECT * FROM login WHERE username = $1', [username], (error, results) => {
       if (error) {
         throw error

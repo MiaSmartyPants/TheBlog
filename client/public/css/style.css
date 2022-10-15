@@ -76,7 +76,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: rgb(255, 155, 61);
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url('https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2020/12/Easy-Dinner-Ideas-1-1.jpg') center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -263,6 +263,7 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
+  background-color: #faf6f8;
 }
 #about h3 {
   font-size: 22px;
@@ -276,7 +277,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #5ca9fb 0%, #006eff 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -291,13 +292,14 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
-  font-size: 11px;
+  color: #fe8c34;
+  font-size: 30px;
   font-weight: 300;
   padding-right: 8px;
 }
 #about img {
-  width: 520px;
+  width: 420px;
+ 
   margin-top: 10px;
   background: #fff;
   border-right: 0;
@@ -353,6 +355,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
+  background-color: #faf6f8;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -402,7 +405,7 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: #f6f6f6;
+  background: #ede8db;
 }
 #testimonials i {
   color: #e6e6e6;
@@ -460,7 +463,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #ea6ce4 0%, #021055 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {

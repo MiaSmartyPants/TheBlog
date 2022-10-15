@@ -133,7 +133,7 @@ export const Contact = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.instagram : '/'}>
+                    <a href={props.data ? props.data.instagram : '/'} target="_blank" >
                       <i className='fa fa-instagram'></i>
                     </a>
                   </li>

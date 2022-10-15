@@ -7,18 +7,19 @@ import '../App.css';
  
 
 
-function Card ({allBlogs}){
+function Card ({openBlog,func}){
 // function handleClose(){
 //     setIsOpen(false)
 // }
-console.log("card", allBlogs)
+console.log("card", openBlog.img)
 
 const [name, setName] = useState();
 const [descritpion, setDescritpion] = useState();
 const [recipe, setRecipe] = useState();
 const [img, setImg] = useState();
     
-const Popup = ({handleClose}) => {
+const handleClose = () => {
+  func(false)
 
 };
 
@@ -29,17 +30,19 @@ const Popup = ({handleClose}) => {
        
        <div className="popup-box">
             <div className="box">
-              <span className="close-icon" >x</span>
-              {/* onClick={handleClose} */}
+              
+             
               <br></br><br></br>
               <div className="card ">
-                  img
-            <img src={allBlogs[0].img} />
+              <span className="close-icon"  onClick={handleClose} style={{color: "red"}} >x</span>   
+            <img src={openBlog.img} />
             <div className="card-body">
-                card body
-              <h2>{allBlogs[0].name}</h2>
-              <p>{allBlogs[0].descritpion}</p>
-			  <h5>{allBlogs[0].recipe}</h5>
+                
+              <h2>{openBlog.name}</h2>
+              Description
+              <p>{openBlog.descritpion}</p>
+              Recipe
+			  <h5>{openBlog.recipe}</h5>
             </div>
                 </div>
             </div>

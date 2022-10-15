@@ -6,16 +6,16 @@
     "About": {
       "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "Why": [
-        "Lorem ipsum dolor",
-        "Tempor incididunt",
-        "Lorem ipsum dolor",
-        "Incididunt ut labore"
+        "🫔 Ut enim ad minim veniam ",
+        "🧇 Consectetur adipiscing elit ",
+        "🍣 Lorem ipsum dolor sit amet",
+        "🍳 Duis sed dapibus leo nec "
       ],
       "Why2": [
-        "Aliquip ex ea commodo",
-        "Lorem ipsum dolor",
-        "Exercitation ullamco",
-        "Lorem ipsum dolor"
+        "😋 Consectetur adipiscing elit ",
+        "🥰 Ut enim ad minim veniam",
+        "🤌🏾 Lorem ipsum dolor sit amet",
+        "🤤 Ut enim ad minim veniam"
       ]
     },
     "Gallery": [
@@ -101,7 +101,7 @@
       {
         "img": "img/testimonials/01.jpg",
         "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-        "name": "John Doe"
+        "name": "Bunns Doe"
       },
       {
         "img": "img/testimonials/02.jpg",

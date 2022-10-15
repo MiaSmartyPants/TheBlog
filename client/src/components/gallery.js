@@ -6,10 +6,14 @@ import Card from "./Card"
 export const Gallery = (props) => {
 
   const [isOpen, setIsOpen] = useState(false);
- 
-    const togglePopup = () => {
+  const [openBlog, setOpenBlog] = useState(null);
+
+
+    const togglePopup = (d) => {
       setIsOpen(!isOpen);
+       setOpenBlog(d)
       console.log(isOpen)
+      console.log(openBlog)
     }
 
   return (
@@ -27,16 +31,15 @@ export const Gallery = (props) => {
             {props.allBlogs
               ? props.allBlogs.map((d, i) => (
                 <div key={`${d.id}-${i}`} className='col-sm-6 col-md-4 col-lg-4'>
-                  <button onClick={togglePopup}>
+                  <button className='button' onClick={() => setOpenBlog(d)}>
                   <Image title={d.name} largeImage={d.img} smallImage={d.img} />      
                   </button>
-                 
-                  {!!isOpen &&
-                    <Card allBlogs={props.allBlogs}/> }
                 </div>
               ))
               : 'Loading...'}
           </div>
+          {!!openBlog &&
+                    <Card openBlog={openBlog} func={setOpenBlog}/> }
         </div>
       </div>
     </div>
